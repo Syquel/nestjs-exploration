@@ -1,0 +1,64 @@
+{
+    "extends": "@tsconfig/node16/tsconfig.json",
+    "compilerOptions": {
+        // Set by parent
+        "lib": ["es2021"],
+        "module": "commonjs",
+        "target": "es2021",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        
+        /* Type Checking */
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "alwaysStrict": true, // strict
+        "exactOptionalPropertyTypes": true,
+        "noFallthroughCasesInSwitch": true,
+        "noEmitOnError": true,
+        "noImplicitAny": true, // strict
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true, // strict
+        "noPropertyAccessFromIndexSignature": true,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strictBindCallApply": true, // strict
+        "strictFunctionTypes": true, // strict
+        "strictNullChecks": true, // strict
+        "strictPropertyInitialization": true, // strict
+        "useUnknownInCatchVariables": true, // strict
+
+        /* Modules */
+        "allowUmdGlobalAccess": false,
+        "baseUrl": "./",
+        "resolveJsonModule": false,
+        "rootDir": "./src",
+
+        /* Emit */
+        "declaration": true,
+        "downlevelIteration": false,
+        "importHelpers": false,
+        "outDir": "./build",
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+
+        /* JavaScript Support */
+        "allowJs": false,
+
+        /* Editor Support */
+
+        /* Interop Constraints */
+        "allowSyntheticDefaultImports": false,
+        "isolatedModules": true,
+
+        /* Output Formatting */
+        "noErrorTruncation": true,
+        "pretty": true
+    },
+    "include": ["src/**/*.ts"]
+}
