@@ -9,7 +9,7 @@
         "esModuleInterop": true,
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
-        
+
         /* Type Checking */
         "allowUnreachableCode": false,
         "allowUnusedLabels": false,
@@ -53,12 +53,12 @@
         /* Editor Support */
 
         /* Interop Constraints */
-        "allowSyntheticDefaultImports": false,
+        "allowSyntheticDefaultImports": true,
         "isolatedModules": true,
 
         /* Output Formatting */
         "noErrorTruncation": true,
         "pretty": true
     },
-    "include": ["src/**/*.ts"]
+    "include": ["**/*.ts"]
 }
